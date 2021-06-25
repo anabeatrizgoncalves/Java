@@ -1,2 +1,3 @@
 # Primeiros Programas em Java
-Aulas
+Seção 7; aula 139
+Testando Git Eclipse
