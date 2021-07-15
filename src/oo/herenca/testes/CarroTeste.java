@@ -20,7 +20,12 @@ public class CarroTeste {
 		System.out.println("A velocidade do Civic é " + c1.velocidadeAtual  + "Km/h");
 		System.out.println();
 
-		Carro c2 = new Ferrari(400);
+		Ferrari c2 = new Ferrari(400);
+		c2.ligarTurbo();
+		c2.ligarAr();
+		c2.desligarAr();
+		
+		System.out.println(c2.velocidadeDoAr());
 
 		c2.acelerar();
 		c2.acelerar();
